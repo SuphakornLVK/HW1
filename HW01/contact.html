@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            }
+        .container {
+            padding: 2px 16px;
+            }
+    </style>
+</head>
+<body>
+    <hr>
+    <a href="./index.html">Home</a>&nbsp;|&nbsp;
+    <a href="./education.html">Education</a>&nbsp;|&nbsp;
+    <a href="./work.html">Work Experience</a>&nbsp;|&nbsp;
+    <a href="#">Contact Me</a>&nbsp;|
+    <hr><br>
+    <h1>Contact Me</h1>
+    <div class="card">
+        <div class="container">
+            <label for="name">Your name</label><br>
+            <input type="text" id="name" name="name" value="John"><br><br>
+            <label for="email">Your email</label><br>
+            <input type="text" id="email" name="email" value="Doe@g.com"><br><br>
+            <label for="gender">Gender</label><br>
+            <select id="gender" name="gender">
+                <option value="volvo">M</option>
+                <option value="saab">F</option>
+                <option value="fiat">Attack Helicopter</option>
+            </select>
+            <p><label for="text">Message</label></p>
+                <textarea id="Message" name="Message" rows="4" cols="50">
+                    .............
+                </textarea>
+            <br><br>
+            <input type="submit" value="Send">&nbsp;
+            <input type="submit" value="Clear"><br><br>
+        </div>
+    </div>
+</body>
+</html>
